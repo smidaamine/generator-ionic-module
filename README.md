@@ -20,7 +20,7 @@ A controller file: <module name>.controller.js
 
 angular.module('<app name>')
 .controller('ModuleCtrl', function($scope) {
- //controller\'s content goes here	
+
 });
 
 A router file: <module name>.js
