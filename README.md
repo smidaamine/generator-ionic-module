@@ -10,13 +10,48 @@ This generator was designed for ionic applications creted using the NEW Yeoman I
 
 The present generator creates a complete ready to use module for your Ionic based Hyrid mobile application project
 
-It will generate the following files under the /app/<module name> folder
-
+It will generate the following files under the **/app/\<module name\>** folder
+```bash
 A controller file: <module name>.controller.js
-A router file: <module name>.js
-A view file: <module name>.html
-A styling file: <module name>.css
 
+//the content of the controller file:
+
+"use strict";
+
+angular.module('<app name>')
+.controller('ModuleCtrl', function($scope) {
+ //controller\'s content goes here	
+});
+
+A router file: <module name>.js
+
+//the content of the router file:
+
+"use strict";
+
+angular.module('<app name>')
+.config(function($stateProvider) {
+  $stateProvider
+  .state('<module name>', {
+    url: "/<module name>",
+    templateUrl: "/app/<module name>/<module name>.html",
+    controller: 'ModuleCtrl'
+  })
+});
+
+A view file: <module name>.html
+
+//content of the view file:
+
+<ion-view view-title="<module name>">
+  <ion-content>
+	<h1><module name></h1>
+  </ion-content>
+</ion-view>
+
+
+A styling file: <module name>.css (empty by default)
+```
 Additionally it will refere all the newly created files(except for the view file) in the index.html file
 
 
