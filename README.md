@@ -17,22 +17,22 @@ It will generate the following files under the **/app/\<module name\>** folder:
     ├── \<module name\>.controller.js      - Controller 
     ├── \<module name\>.html               - View
     └── \<module name\>.css                - Styles
+```
 
- <module name>.controller.js
- ---------------------------
-//the content of the controller file:
-
+### The controller
+the content of the controller file:
+```bash
 "use strict";
 
 angular.module('<app name>')
 .controller('ModuleCtrl', function($scope) {
 
 });
+```
 
- <module name>.js
- ----------------
-//the content of the router file:
-
+### The router
+the content of the router:
+```bash
 "use strict";
 
 angular.module('<app name>')
@@ -44,10 +44,11 @@ angular.module('<app name>')
     controller: 'ModuleCtrl'
   })
 });
+```
 
- <module name>.html
--------------------
-//content of the view file:
+### The view
+the content of the view:
+```bash
 
 <ion-view view-title="<module name>">
   <ion-content>
@@ -55,9 +56,9 @@ angular.module('<app name>')
   </ion-content>
 </ion-view>
 
-
- <module name>.css (empty by default)
 ```
+<module name>.css (empty by default)
+ 
 Additionally it will refere all the newly created files(except for the view file) in the index.html file
 
 
