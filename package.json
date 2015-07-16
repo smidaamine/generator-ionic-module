@@ -1,0 +1,33 @@
+{
+  "name": "generator-ionicModule",
+  "version": "0.0.1",
+  "description": "A Yeoman Module Generator for Ionic apps",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "zak245/generator-ionicsubgen",
+  "author": {
+    "name": "Abderrezak Mohamed Djadoun",
+    "email": "dmabderrezak@gmail.com",
+    "url": "https://github.com/zak245"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.19.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2",
+    "lodash": "latest",
+    "cheerio": "latest",
+    "js-beautify": "latest"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
