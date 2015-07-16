@@ -73,15 +73,16 @@ than you will need to install this ionic module generator
 To install generator-ionicsubgen from npm, run:
 
 ```bash
-npm install -g generator-ionicsubgen
+npm install -g generator-ionic-module
 ```
 
 Finally, initiate the generator:
 
 ```bash
-yo ionicSubGen <app name> <module name>
+yo ionic-module <app name> <module name>
 ```
-
+where <app name> is the name of the Angularjs app you are orking on
+and <module name> is the name of the module you want to create
 
 
 
