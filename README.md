@@ -12,11 +12,11 @@ The present generator creates a complete ready to use module for your Ionic base
 
 It will generate the following files under the **/app/\<module name\>** folder:
 ```bash
-\<module name\>
-    ├── \<module name\>.js                 - Routes
-    ├── \<module name\>.controller.js      - Controller 
-    ├── \<module name\>.html               - View
-    └── \<module name\>.css                - Styles
+<module name>
+    ├── <module name>.js                 - Routes
+    ├── <module name>.controller.js      - Controller 
+    ├── <module name>.html               - View
+    └── <module name>.css                - Styles
 ```
 
 ### The controller
@@ -81,8 +81,8 @@ Finally, initiate the generator:
 ```bash
 yo ionic-module <app name> <module name>
 ```
-where <app name> is the name of the Angularjs app you are orking on
-and <module name> is the name of the module you want to create
+where \<app name\> is the name of the Angularjs app you are orking on
+and \<module name\> is the name of the module you want to create
 
 
 
