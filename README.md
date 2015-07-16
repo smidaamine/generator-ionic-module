@@ -84,8 +84,10 @@ yo ionic-module <app name> <module name>
 where \<app name\> is the name of the Angularjs app you are orking on
 and \<module name\> is the name of the module you want to create
 
-
+## Author
+Djadoun mohamed Abderrezak <dmabderrezak@gmail.com>
 
 ## License
 
 MIT
+
