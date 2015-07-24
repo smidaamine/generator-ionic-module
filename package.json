@@ -4,7 +4,7 @@
   "description": "A Yeoman Module Generator for Ionic apps",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "zak245/generator-ionicsubgen",
+  "repository": "zak245/generator-ionic-module",
   "author": {
     "name": "Abderrezak Mohamed Djadoun",
     "email": "dmabderrezak@gmail.com",
